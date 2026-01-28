@@ -25,9 +25,6 @@
                         <a href="#about" class="header__nav-link">Про нас</a>
                     </li>
                     <li class="header__nav-item">
-                        <a href="#delivery" class="header__nav-link">Доставка</a>
-                    </li>
-                    <li class="header__nav-item">
                         <a href="#reviews" class="header__nav-link">Відгуки</a>
                     </li>
                     <li class="header__nav-item">
@@ -37,7 +34,7 @@
             </nav>
 
             <!-- mobile menu button (hidden)-->
-            <button class="header__menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Відкрити меню">
+            <button class="header__menu-toggle" type="button" aria-expanded="false" aria-label="Відкрити меню">
                 <span class="header__menu-icon"></span>
             </button>
         </div>
@@ -148,7 +145,7 @@
                 </div>
 
                 <div class="how-it-works__image">
-                    <video src="images/how-it-works.mp4" title="Людина доглядає за здоровими рослинами біля вікна" aria-label="Людина доглядає за здоровими рослинами біля вікна" class="how-it-works__video" autoplay muted loop></video>
+                    <video src="images/how-it-works.mp4" aria-label="Людина доглядає за здоровими рослинами біля вікна" class="how-it-works__video" autoplay muted loop playsinline></video>
                 </div>
             </div>
         </section>
@@ -282,7 +279,7 @@
                 </div>
 
                 <div class="app__video">
-                    <video src="images/app-mockup.mp4" alt="Мобільний додаток LeafyPod на смартфоні, що показує статистику рослини" class="app__phone-video" autoplay muted loop></video>
+                    <video src="images/app-mockup.mp4" aria-label="Мобільний додаток LeafyPod на смартфоні, що показує статистику рослини" class="app__phone-video" autoplay muted loop playsinline></video>
                 </div>
             </div>
         </section>
@@ -436,9 +433,7 @@
 
             <!-- footer contact -->
             <address class="footer__contact">
-                <p class="footer__contact-email">
-                    <a href="mailto:info@leafypodone.com">info@leafypodone.com</a>
-                </p>
+                <a href="mailto:info@leafypodone.com" class="footer__contact-email">info@leafypodone.com</a>
             </address>
         </div>
 
